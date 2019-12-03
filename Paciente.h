@@ -105,7 +105,7 @@ void Paciente::Imp_Ficha(){
     else
         cout<<"NULL"<<endl;
 }
-string Paciente::getNome(){
+string Paciente::getNome(){//Função que resgata nome
     return nome;
 }
 int Paciente::getIdade(){//Função que resgata idade
