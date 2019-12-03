@@ -108,10 +108,10 @@ void Paciente::Imp_Ficha(){
 string Paciente::getNome(){
     return nome;
 }
-int Paciente::getIdade(){
+int Paciente::getIdade(){//Função que resgata idade
     return idade;
 }
-char Paciente::getSexo(){
+char Paciente::getSexo(){//Função que resgata sexo
     return sexo;
 }
 void Paciente::setNome(string nome){
