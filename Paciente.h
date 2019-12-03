@@ -77,7 +77,7 @@ void Paciente::Excluir( ){
     setIdade(0);
     setSexo('n');
 }
-void Paciente::Cadastro(){
+void Paciente::Cadastro(){//Função para realização de cadastro
     string n;
     int ida;
     char sex;
@@ -91,7 +91,7 @@ void Paciente::Cadastro(){
     cin>>sex;
     setSexo(sex);
 }
-void Paciente::Imp_Ficha(){
+void Paciente::Imp_Ficha(){//Função que imprime ficha
     cout<<endl;
     if(getNome()!="Null")
     cout<<"             Ficha do Paciente "<<getNome()<<endl;
